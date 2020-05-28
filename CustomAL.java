@@ -4,7 +4,7 @@
  */
 class CustomAL<T> implements ListADT<T> {
     
-    Object[] data;
+    T[] data;
     int size;
 
     /**
